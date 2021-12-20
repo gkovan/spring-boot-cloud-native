@@ -6,7 +6,7 @@ Number of ways to create a spring boot container image.
 
 Spring Boot 2.3.0.M1 and above includes buildpack support directly for both Maven and Gradle.
 
-Create a docker image:
+Build docker image:
 ```
 ./mvnw spring-boot:build-image
 ```
@@ -28,3 +28,27 @@ dive -j rest-service-buildpack-dive.txt rest-service:0.0.1-SNAPSHOT
 ```
 
 Size of image: 261MB
+
+
+## Dockerfile - one stage
+
+Build docker image:
+```
+docker build -t rest-server-dockerfile:0.0.1 .
+```
+
+Run docker image:
+```
+docker run -it -p8080:8080 rest-server-dockerfile:0.0.1
+```
+
+Test the image:
+```
+curl http://localhost:8080/greeting
+```
+
+Inspect the image:
+```
+dive -j rest-server-dockerfile.dive rest-server-dockerfile:0.0.1
+```
+Size of image: 455MB

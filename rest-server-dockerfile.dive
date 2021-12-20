@@ -1,0 +1,134 @@
+{
+  "layer": [
+    {
+      "index": 0,
+      "id": "06ec107a7c3909292f0730a926f0bf38071c4b930618cb2480e53584f4b60777",
+      "digestId": "sha256:9f54eef412758095c8079ac465d494a2872e02e90bf1fb5f12a1641c0d1bb78b",
+      "sizeBytes": 72773644,
+      "command": "#(nop) ADD file:5d68d27cc15a80653c93d3a0b262a28112d47a46326ff5fc2dfbf7fa3b9a0ce8 in / "
+    },
+    {
+      "index": 1,
+      "id": "50d4eb73527b81caa63d104d14b6951d1b6c3a63d9032d91940298ca0d3895cc",
+      "digestId": "sha256:d85bc4247a358ad94e080ef62183f83e39756254d17fbeb33ca0a40359e6988d",
+      "sizeBytes": 43162828,
+      "command": "apt-get update     \u0026\u0026 DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata curl ca-certificates fontconfig locales     \u0026\u0026 echo \"en_US.UTF-8 UTF-8\" \u003e\u003e /etc/locale.gen     \u0026\u0026 locale-gen en_US.UTF-8     \u0026\u0026 rm -rf /var/lib/apt/lists/*"
+    },
+    {
+      "index": 2,
+      "id": "360215c4522a60ad1425517d4d5d0bb607cda7708da8ad5d0d218a51bcef205f",
+      "digestId": "sha256:517edfa8999ac290ac1ac779b961037795ef5a2b66a6e4e569d006b1f387f802",
+      "sizeBytes": 321405975,
+      "command": "set -eux;     ARCH=\"$(dpkg --print-architecture)\";     case \"${ARCH}\" in        aarch64|arm64)          ESUM='a77013bff10a5e9c59159231dd5c4bd071fc4c24beed42bd49b82803ba9506ef';          BINARY_URL='https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.13_8.tar.gz';          ;;        armhf|armv7l)          ESUM='61ee45c4ef21a85a116a87e1bca2e2a420b3af432be8d801bd52c660ffebaa9f';          BINARY_URL='https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_arm_linux_hotspot_11.0.13_8.tar.gz';          ;;        ppc64el|ppc64le)          ESUM='82f14cda71cff99c878bf8400598a87235adb6c81b0337f7077c27e5cac1190c';          BINARY_URL='https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.13_8.tar.gz';          ;;        s390x)          ESUM='9d280d86fdf6a7d9e5cbf54dc37f1d6d09dfe676ff5c684802fdfa3932eee63e';          BINARY_URL='https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.13_8.tar.gz';          ;;        amd64|x86_64)          ESUM='3b1c0c34be4c894e64135a454f2d5aaa4bd10aea04ec2fa0c0efe6bb26528e30';          BINARY_URL='https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_x64_linux_hotspot_11.0.13_8.tar.gz';          ;;        *)          echo \"Unsupported arch: ${ARCH}\";          exit 1;          ;;     esac;     curl -LfsSo /tmp/openjdk.tar.gz ${BINARY_URL};     echo \"${ESUM} */tmp/openjdk.tar.gz\" | sha256sum -c -;     mkdir -p /opt/java/openjdk;     cd /opt/java/openjdk;     tar -xf /tmp/openjdk.tar.gz --strip-components=1;     rm -rf /tmp/openjdk.tar.gz;"
+    },
+    {
+      "index": 3,
+      "id": "9eeecc3e6c5225cd93768a523849ba6d6e1d720f2cc42e5d2204556892e108e3",
+      "digestId": "sha256:c2960754519f2b2392961368a1c4a43f03539a62863a7799121e60496cf85bf4",
+      "sizeBytes": 17615815,
+      "command": "ADD target/rest-service-0.0.1-SNAPSHOT.jar app.jar # buildkit"
+    }
+  ],
+  "image": {
+    "sizeBytes": 454958262,
+    "inefficientBytes": 1984479,
+    "efficiencyScore": 0.9972653711254067,
+    "fileReference": [
+      {
+        "count": 2,
+        "sizeBytes": 1318297,
+        "file": "/var/cache/debconf/templates.dat"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 344443,
+        "file": "/var/log/dpkg.log"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 215642,
+        "file": "/var/lib/dpkg/status"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 37133,
+        "file": "/var/log/apt/history.log"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 28361,
+        "file": "/var/cache/debconf/config.dat"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 14922,
+        "file": "/etc/ld.so.cache"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 12354,
+        "file": "/var/cache/ldconfig/aux-cache"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 11212,
+        "file": "/var/log/apt/eipp.log.xz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2115,
+        "file": "/var/lib/apt/extended_states"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/triggers/Unincorp"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/apt/lists"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/lock"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/updates"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/cache/debconf/passwords.dat"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/lock-frontend"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/cache/apt/archives/partial"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/cache/apt/archives/lock"
+      },
+      {
+        "count": 3,
+        "sizeBytes": 0,
+        "file": "/tmp"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/triggers/Lock"
+      }
+    ]
+  }
+}
