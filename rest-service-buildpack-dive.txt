@@ -1,0 +1,796 @@
+{
+  "layer": [
+    {
+      "index": 0,
+      "id": "d5e7df7d8eeae3b459de9c4455422511c84252d775e1222f3679b5863ca6b6f1",
+      "digestId": "sha256:824bf068fd3dc3ad967022f187d85250eb052f61fe158486b2df4e002f6f984e",
+      "sizeBytes": 63133610,
+      "command": ""
+    },
+    {
+      "index": 1,
+      "id": "3975b70e4f1980bced2e72c1442626e656af83acbd7177b574c07bf5f51fcf91",
+      "digestId": "sha256:2a9bb314a0bc5a02a4d70c82dbeac3c6bff4cb0900d7b0a44f9b5b1cc3f55af7",
+      "sizeBytes": 225,
+      "command": ""
+    },
+    {
+      "index": 2,
+      "id": "cfd2ea56374fe743f0f452569b2f7c3b68a7793c9a20c52f06bf84c2f95c42a6",
+      "digestId": "sha256:35ac66603fed6d2b928f2ad5abc4899de1248b2fc806d9e6d29aa1691f994224",
+      "sizeBytes": 23655165,
+      "command": ""
+    },
+    {
+      "index": 3,
+      "id": "43f8b0bdc02ac08ab69c6d8ff9a4cd67edaa37e28bc6468bf302bed772937c70",
+      "digestId": "sha256:5466ad642ccb1a9fd81e9249736bfa2777a1e635d635363d962b8bbaf805f881",
+      "sizeBytes": 397796,
+      "command": ""
+    },
+    {
+      "index": 4,
+      "id": "08bb5fe0b5f572847e5e11677d44d1911b1b1c9fc33b5c7be0d8e6dd13322c5a",
+      "digestId": "sha256:56d5429304369d4c23b02aab20fd2667ef20ca47c579e02a361c249dedbfd5c2",
+      "sizeBytes": 3424256,
+      "command": ""
+    },
+    {
+      "index": 5,
+      "id": "20484c0c42a918e90d74dd3c32d04ec35949f1fbfabbd77c7131d4f49d089011",
+      "digestId": "sha256:1c3471643466fbf59df09102442337e03876bb1c8ee9b28140da48510ed87d4a",
+      "sizeBytes": 4362240,
+      "command": ""
+    },
+    {
+      "index": 6,
+      "id": "b51d601a44182ec33eaf97485eb58aae2cc34c742c8e19a198590306105e0c29",
+      "digestId": "sha256:ec0381c8f32136ad9564b114b2271d1181e0c181957acb6707e6ff4713a7a89d",
+      "sizeBytes": 214,
+      "command": ""
+    },
+    {
+      "index": 7,
+      "id": "8ca48b082bbbd807075af637e297494d9119771d96bb783c8a129c8df84755e1",
+      "digestId": "sha256:318d4c9505d84ed07c3b75cb0edbd034e6deeac1e5cdf03712b3a648c221e1bc",
+      "sizeBytes": 143944905,
+      "command": ""
+    },
+    {
+      "index": 8,
+      "id": "c72fa93cf05c1938b8161338579eea6711f4e835cadb2dea1dc3f32f44d683a6",
+      "digestId": "sha256:7fbc97c38fad01ae2b8189c8d9a0a0149932192accc4ad253b0f8186d0793e9a",
+      "sizeBytes": 11,
+      "command": ""
+    },
+    {
+      "index": 9,
+      "id": "fea973f8c4cddbe699f305367752d41cdc4bf9814cb3cc00c210c3699f7cb0a7",
+      "digestId": "sha256:a174aef9927e9ab94b0a99a2b93965993efda3aee99ff1399e67396a8637ebad",
+      "sizeBytes": 1626112,
+      "command": ""
+    },
+    {
+      "index": 10,
+      "id": "9f2e047b6f462ed01f1ebdbc562f69801f3d6770a2ef5a33abb39608a022b940",
+      "digestId": "sha256:6182ede4914f7f528e5044b2ee03e11dfc61661ebada00f0abd117bb58684eea",
+      "sizeBytes": 54958,
+      "command": ""
+    },
+    {
+      "index": 11,
+      "id": "339f876f6c79a461874c83df22c066497e261a7fb3bcb94dc59db793dad14a23",
+      "digestId": "sha256:6763b99e37924a36f5ebbaa60cceda209369919ee2ff6b0623381f10222a4dfd",
+      "sizeBytes": 3,
+      "command": ""
+    },
+    {
+      "index": 12,
+      "id": "83c1118029052d161daf371a8643b9ea878b6e9fc7f4d380b82aea8e27f4fdc6",
+      "digestId": "sha256:62da67beb17ed7fe5072a4fd45036b2e1db6dd014e5c61b9fdb0b85b2cb2bffb",
+      "sizeBytes": 17481086,
+      "command": ""
+    },
+    {
+      "index": 13,
+      "id": "c94899367be09baad7490644235df874106bbd894ce3f38e9028f66d46e82464",
+      "digestId": "sha256:b32f5a546cd9cc789dc3f23aa5084681966778a9d8538b8f0a7373101239e72d",
+      "sizeBytes": 252148,
+      "command": ""
+    },
+    {
+      "index": 14,
+      "id": "665338995a90195b75b93b3b6602239ad83326dee8dcf3d60c1e64065f0c26b2",
+      "digestId": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "sizeBytes": 0,
+      "command": ""
+    },
+    {
+      "index": 15,
+      "id": "8a8cf16cf2d423f99ad6d07be7718a9fd65d9f14895cff6ad29d40ebf6f348b4",
+      "digestId": "sha256:a5d8e56177660f27a0880d059eb09230de975475bf3cceebb16b620aff424be0",
+      "sizeBytes": 6105,
+      "command": ""
+    },
+    {
+      "index": 16,
+      "id": "8e0770c8f7e1dca0911238bd1fbd034eb54bfea6504c7a85d1bbc1d5e77f4c42",
+      "digestId": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "sizeBytes": 0,
+      "command": ""
+    },
+    {
+      "index": 17,
+      "id": "62017e07dc9dd9957018164ce0fa96cce407d1e54891464086a442c7ecaf0023",
+      "digestId": "sha256:cc4b18425c755de119da880373051a2ff0e6b2412be008392ef6b2b71731ac29",
+      "sizeBytes": 2473984,
+      "command": ""
+    },
+    {
+      "index": 18,
+      "id": "0b04a45f944cddd14f3eb3423301deb31246971d1828ffc18f371c14ce32b203",
+      "digestId": "sha256:2c62a182407d9b4a79ec32df62773613fb49a9c4e45dab27dc2c6c3bd5b76c0a",
+      "sizeBytes": 1932,
+      "command": ""
+    },
+    {
+      "index": 19,
+      "id": "5c870f9938df26965260b8d5f035aa42a6a994f8b0160c6bb636be6b3d96e243",
+      "digestId": "sha256:1dc94a70dbaa2171fb086500a5d27797f779219b126b0a1eebb9180c2792e80e",
+      "sizeBytes": 0,
+      "command": ""
+    }
+  ],
+  "image": {
+    "sizeBytes": 260814750,
+    "inefficientBytes": 3307275,
+    "efficiencyScore": 0.9909079836419842,
+    "fileReference": [
+      {
+        "count": 2,
+        "sizeBytes": 1288829,
+        "file": "/var/cache/debconf/templates.dat"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 396750,
+        "file": "/var/log/dpkg.log"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 321784,
+        "file": "/var/log/lastlog"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 258624,
+        "file": "/lib/x86_64-linux-gnu/libseccomp.so.2.5.1"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 222504,
+        "file": "/usr/share/info/coreutils.info.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 180675,
+        "file": "/var/lib/dpkg/status"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 92415,
+        "file": "/usr/share/info/find.info.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 70528,
+        "file": "/var/log/tallylog"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 61196,
+        "file": "/usr/share/doc/perl/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 61183,
+        "file": "/usr/share/info/diffutils.info.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 52258,
+        "file": "/usr/share/info/sed.info.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 35264,
+        "file": "/var/log/faillog"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 29826,
+        "file": "/usr/share/info/grep.info.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 28020,
+        "file": "/var/cache/debconf/config.dat"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 23655,
+        "file": "/usr/share/info/find-maint.info.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16533,
+        "file": "/var/log/apt/history.log"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 14828,
+        "file": "/usr/share/info/gzip.info.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 14814,
+        "file": "/etc/ld.so.cache"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 10508,
+        "file": "/var/log/apt/eipp.log.xz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 10432,
+        "file": "/var/cache/ldconfig/aux-cache"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 4562,
+        "file": "/var/log/apt/term.log"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 4550,
+        "file": "/usr/share/doc/liblzma5/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 4117,
+        "file": "/usr/share/doc/libudev1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 4115,
+        "file": "/usr/share/doc/libsystemd0/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 3983,
+        "file": "/usr/share/doc/libc6/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 3179,
+        "file": "/usr/share/doc/libpam0g/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 3036,
+        "file": "/usr/share/doc/dpkg/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2993,
+        "file": "/usr/share/doc/passwd/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2992,
+        "file": "/usr/share/doc/login/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2990,
+        "file": "/etc/apt/sources.list"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2837,
+        "file": "/usr/share/doc/libprocps6/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2462,
+        "file": "/var/lib/dpkg/info/libseccomp2:amd64.symbols"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2178,
+        "file": "/usr/share/doc/gpgv/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2038,
+        "file": "/usr/share/doc/libext2fs2/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2037,
+        "file": "/usr/share/doc/libcom-err2/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1982,
+        "file": "/usr/share/doc/ncurses-base/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1981,
+        "file": "/usr/share/doc/libtinfo5/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1925,
+        "file": "/usr/share/doc/libsmartcols1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1922,
+        "file": "/usr/share/doc/libuuid1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1920,
+        "file": "/usr/share/doc/bsdutils/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1897,
+        "file": "/usr/share/doc/libnettle6/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1889,
+        "file": "/etc/passwd"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1882,
+        "file": "/usr/share/doc/libseccomp2/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1848,
+        "file": "/usr/share/doc/mawk/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1816,
+        "file": "/usr/share/doc/libidn2-0/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1762,
+        "file": "/usr/share/doc/dash/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1758,
+        "file": "/usr/share/doc/libzstd1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1690,
+        "file": "/usr/share/doc/libgcrypt20/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1682,
+        "file": "/usr/share/doc/libgnutls30/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1653,
+        "file": "/usr/share/doc/libsemanage-common/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1648,
+        "file": "/usr/share/doc/libunistring2/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1648,
+        "file": "/usr/share/doc/libsemanage1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1600,
+        "file": "/usr/share/doc/libselinux1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1571,
+        "file": "/usr/share/doc/libbz2-1.0/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1505,
+        "file": "/usr/share/doc/findutils/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1493,
+        "file": "/usr/share/doc/coreutils/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1482,
+        "file": "/usr/share/doc/gcc-8-base/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1459,
+        "file": "/usr/share/doc/libtasn1-6/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1427,
+        "file": "/usr/share/doc/libp11-kit0/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1418,
+        "file": "/usr/share/doc/libcap-ng0/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1382,
+        "file": "/usr/share/doc/libacl1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1366,
+        "file": "/usr/share/doc/grep/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1357,
+        "file": "/usr/share/doc/bash/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1345,
+        "file": "/usr/share/doc/tar/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1337,
+        "file": "/usr/share/doc/diffutils/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1298,
+        "file": "/usr/share/doc/libattr1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1265,
+        "file": "/usr/share/doc/libsepol1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1203,
+        "file": "/usr/share/doc/liblz4-1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1152,
+        "file": "/usr/share/doc/libdb5.3/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1132,
+        "file": "/usr/share/doc/libaudit-common/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1128,
+        "file": "/usr/share/doc/libaudit1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1093,
+        "file": "/usr/share/doc/sed/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1087,
+        "file": "/usr/share/doc/libgpg-error0/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1086,
+        "file": "/usr/share/doc/zlib1g/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1027,
+        "file": "/etc/shadow"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1020,
+        "file": "/usr/share/doc/gzip/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 953,
+        "file": "/usr/share/doc/libffi6/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 939,
+        "file": "/usr/share/doc/libgmp10/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 935,
+        "file": "/usr/share/doc/libpcre3/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 904,
+        "file": "/etc/group"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 771,
+        "file": "/usr/share/info/dir"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 756,
+        "file": "/etc/gshadow"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 504,
+        "file": "/var/lib/dpkg/info/libseccomp2:amd64.list"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 450,
+        "file": "/var/lib/dpkg/info/libseccomp2:amd64.md5sums"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 148,
+        "file": "/var/lib/dpkg/info/libseccomp2:amd64.triggers"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 50,
+        "file": "/var/lib/dpkg/info/libseccomp2:amd64.shlibs"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 17,
+        "file": "/etc/subgid"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 17,
+        "file": "/etc/subuid"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libpam-modules/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libpam-runtime/NEWS.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/procps/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/mount/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/mount/mount.txt"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/ncurses-bin/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libfdisk1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/passwd/examples"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libss2/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/procps/NEWS.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libpam-runtime/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/procps/examples"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libc-bin/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/sed/examples"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/util-linux/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/util-linux/examples"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/mawk/examples"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libblkid1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/triggers/Unincorp"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libmount1/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/triggers/Lock"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/lock"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/util-linux/releases"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libpam-modules-bin/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/fdisk/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/e2fsprogs/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/man/man3"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/apt/extended_states"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/man/man5"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/man/man7"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/bzip2/changelog.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/man/man8"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libpam-modules-bin/NEWS.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/base-files/FAQ"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/apt/examples"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/apt/changelog.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/apt/NEWS.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libp11-kit0/examples"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/lib/x86_64-linux-gnu/libseccomp.so.2"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libpam-modules/NEWS.Debian.gz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/share/doc/libpam-modules/examples"
+      }
+    ]
+  }
+}
