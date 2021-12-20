@@ -52,3 +52,22 @@ Inspect the image:
 dive -j rest-server-dockerfile.dive rest-server-dockerfile:0.0.1
 ```
 Size of image: 455MB
+
+## Dockerfile ubi image - one stage
+
+Build docker image:
+```
+docker build -f Dockerfile.ubi-openjdk11 -t rest-server-dockerfile-ubi-openjdk11:0.0.1 .
+```
+
+Run docker image:
+```
+docker run -it -p8080:8080 rest-server-dockerfile-ubi-openjdk11:0.0.1
+```
+
+Inspect the image:
+```
+dive -j rest-server-dockerfile-ubi-openjdk11.dive rest-server-dockerfile-ubi-openjdk11:0.0.1
+```
+
+Size of image: 455MB

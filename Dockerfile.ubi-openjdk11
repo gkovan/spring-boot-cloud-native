@@ -1,0 +1,5 @@
+FROM registry.access.redhat.com/ubi8/openjdk-11:1.10-10.1638383051
+EXPOSE 8080
+ARG JAR_FILE=target/rest-service-0.0.1-SNAPSHOT.jar
+ADD ${JAR_FILE} /deployments/app.jar
+ENTRYPOINT ["java","-jar","/deployments/app.jar"]

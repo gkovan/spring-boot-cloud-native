@@ -1,0 +1,394 @@
+{
+  "layer": [
+    {
+      "index": 0,
+      "id": "386e186a8805976d2add10f85a7e6cc33ff1d869037fb93979f94daa7de59f67",
+      "digestId": "sha256:af092941766c404a0872d841a3a3922a4b28abe45779dbb26da85f8aae7a371c",
+      "sizeBytes": 102490222,
+      "command": ""
+    },
+    {
+      "index": 1,
+      "id": "8875103f0ca8161f009b621171b1ff72237692d07661e0db39516e8a00f512b2",
+      "digestId": "sha256:a65a1b01a4d247ec9b93470e04b7967993b1045e07eba59f7a5543597f5471eb",
+      "sizeBytes": 4654,
+      "command": ""
+    },
+    {
+      "index": 2,
+      "id": "16174317b9365b37f231fcefb2d39e87f5dcfcc1d6c5c44bb5385a49638b71cc",
+      "digestId": "sha256:3e00f9af34dbb5390546e89d60cba4d733173d24779f1b5001651df6ca5812ea",
+      "sizeBytes": 334403963,
+      "command": ""
+    },
+    {
+      "index": 3,
+      "id": "df297996343ba094270e28231876aec792348ceb7410bf087117c7c4b305eddf",
+      "digestId": "sha256:4fd4f706b2675097d0f4802a4d44fb77f3f25f1281120f40e9f9a1fa45a0dbd4",
+      "sizeBytes": 17615815,
+      "command": "ADD target/rest-service-0.0.1-SNAPSHOT.jar /deployments/app.jar # buildkit"
+    }
+  ],
+  "image": {
+    "sizeBytes": 454514654,
+    "inefficientBytes": 22900987,
+    "efficiencyScore": 0.968233181060878,
+    "fileReference": [
+      {
+        "count": 2,
+        "sizeBytes": 13971456,
+        "file": "/var/lib/rpm/Packages"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 3321880,
+        "file": "/usr/lib64/libstdc++.so.6.0.25"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1582712,
+        "file": "/var/lib/rpm/__db.003"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1277952,
+        "file": "/var/lib/rpm/Basenames"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 573440,
+        "file": "/var/lib/rpm/__db.001"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 462848,
+        "file": "/var/lib/rpm/Dirnames"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 208896,
+        "file": "/var/lib/rpm/Providename"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 199336,
+        "file": "/usr/lib64/libgcc_s-8-20210514.so.1"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 180224,
+        "file": "/var/lib/rpm/__db.002"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 139264,
+        "file": "/var/lib/rpm/Requirename"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 138790,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/printers.py"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 115848,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/printers.cpython-36.opt-1.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 72558,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/xmethods.cpython-36.opt-1.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 70294,
+        "file": "/usr/share/licenses/libgcc/COPYING3"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 57924,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/printers.cpython-36.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 55416,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/xmethods.py"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 52880,
+        "file": "/usr/share/licenses/libgcc/COPYING.LIB"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 45056,
+        "file": "/var/lib/rpm/Sha1header"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 36279,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/xmethods.cpython-36.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 36004,
+        "file": "/usr/share/licenses/libgcc/COPYING"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 28672,
+        "file": "/var/lib/rpm/Sigmd5"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 28672,
+        "file": "/var/lib/rpm/Name"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 20480,
+        "file": "/var/lib/rpm/Group"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Suggestname"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Filetriggername"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Conflictname"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Recommendname"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Enhancename"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Obsoletename"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Transfiletriggername"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Installtid"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Triggername"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16384,
+        "file": "/var/lib/rpm/Supplementname"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 15682,
+        "file": "/etc/ld.so.cache"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 15278,
+        "file": "/usr/share/licenses/libgcc/COPYING3.LIB"
+      },
+      {
+        "count": 3,
+        "sizeBytes": 7287,
+        "file": "/etc/yum.repos.d/ubi.repo"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 6648,
+        "file": "/usr/share/licenses/libgcc/COPYING.RUNTIME"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 4762,
+        "file": "/usr/share/gdb/auto-load/usr/lib64/libstdc++.so.6.0.25-gdb.py"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2322,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/__init__.py"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1458,
+        "file": "/usr/share/gdb/auto-load/usr/lib64/__pycache__/libstdc++.so.6.0.25-gdb.cpython-36.opt-1.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1172,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/__init__.cpython-36.opt-1.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 1117,
+        "file": "/etc/passwd"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 729,
+        "file": "/usr/share/gdb/auto-load/usr/lib64/__pycache__/libstdc++.so.6.0.25-gdb.cpython-36.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 715,
+        "file": "/etc/shadow"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 699,
+        "file": "/etc/shadow-"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 586,
+        "file": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 546,
+        "file": "/etc/group"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 452,
+        "file": "/etc/crypto-policies/back-ends/nss.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 411,
+        "file": "/etc/gshadow"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 256,
+        "file": "/usr/share/gcc-8/python/libstdcxx/__pycache__/__init__.cpython-36.opt-1.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 128,
+        "file": "/usr/share/gcc-8/python/libstdcxx/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 16,
+        "file": "/etc/crypto-policies/state/current"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2,
+        "file": "/usr/share/gcc-8/python/libstdcxx/__init__.py"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/rpm-state"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/rpm/.rpm.lock"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/lib64/libgcc_s.so.1"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/opensshserver.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/tmp"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/opensslcnf.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/openssl.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/rpm/.dbenv.lock"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/openssh.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/lib64/libstdc++.so.6"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/libssh.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/libreswan.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/krb5.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/java.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/gnutls.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/crypto-policies/back-ends/bind.config"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/etc/.pwd.lock"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/usr/lib/.build-id/02/fce4900fffc7a65c742c3095305a5c114d898c"
+      }
+    ]
+  }
+}
