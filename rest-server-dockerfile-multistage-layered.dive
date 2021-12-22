@@ -1,0 +1,162 @@
+{
+  "layer": [
+    {
+      "index": 0,
+      "id": "3f26145e37da197979f34960588e273e6642d435f828d997e35c8a7663f9d8cf",
+      "digestId": "sha256:da55b45d310bb8096103c29ff01038a6d6af74e14e3b67d1cd488c3ab03f5f0d",
+      "sizeBytes": 72773754,
+      "command": "#(nop) ADD file:8d2f4a45a58b3f5426c89e2ef57164824fbf0e4d17b8a90fffa0d5ff3b4e5114 in / "
+    },
+    {
+      "index": 1,
+      "id": "847db68cc930571bddeba04fd7190dbe6b344bc62357824120312e5f2dfc0e11",
+      "digestId": "sha256:14fbd8039ba4ad82671ca7275ed5b2075363991760fc9ae073bc22f70ca2775d",
+      "sizeBytes": 43186514,
+      "command": "apt-get update     \u0026\u0026 apt-get install -y --no-install-recommends tzdata curl ca-certificates fontconfig locales     \u0026\u0026 echo \"en_US.UTF-8 UTF-8\" \u003e\u003e /etc/locale.gen     \u0026\u0026 locale-gen en_US.UTF-8     \u0026\u0026 rm -rf /var/lib/apt/lists/*"
+    },
+    {
+      "index": 2,
+      "id": "da5980ae28469b1ef3cb0aebabc8489d6ea561440088fe964532469e834512f3",
+      "digestId": "sha256:83b767b0665544297a032b627f947eb9e3cdf68aa768149dbfa98a8ae5c2b4f8",
+      "sizeBytes": 127901803,
+      "command": "set -eux;     ARCH=\"$(dpkg --print-architecture)\";     case \"${ARCH}\" in        aarch64|arm64)          ESUM='fde6b29df23b6e7ed6e16a237a0f44273fb9e267fdfbd0b3de5add98e55649f6';          BINARY_URL='https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_aarch64_linux_hotspot_11.0.11_9.tar.gz';          ;;        armhf|armv7l)          ESUM='ad02656f800fd64c2b090b23ad24a099d9cd1054948ecb0e9851bc39c51c8be8';          BINARY_URL='https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_arm_linux_hotspot_11.0.11_9.tar.gz';          ;;        ppc64el|ppc64le)          ESUM='37c19c7c2d1cea627b854a475ef1a765d30357d765d20cf3f96590037e79d0f3';          BINARY_URL='https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.11_9.tar.gz';          ;;        s390x)          ESUM='f18101fc50aad795a41b4d3bbc591308c83664fd2390bf2bc007fd9b3d531e6c';          BINARY_URL='https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_s390x_linux_hotspot_11.0.11_9.tar.gz';          ;;        amd64|x86_64)          ESUM='144f2c6bcf64faa32016f2474b6c01031be75d25325e9c3097aed6589bc5d548';          BINARY_URL='https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.11_9.tar.gz';          ;;        *)          echo \"Unsupported arch: ${ARCH}\";          exit 1;          ;;     esac;     curl -LfsSo /tmp/openjdk.tar.gz ${BINARY_URL};     echo \"${ESUM} */tmp/openjdk.tar.gz\" | sha256sum -c -;     mkdir -p /opt/java/openjdk;     cd /opt/java/openjdk;     tar -xf /tmp/openjdk.tar.gz --strip-components=1;     rm -rf /tmp/openjdk.tar.gz;"
+    },
+    {
+      "index": 3,
+      "id": "e497e91f540e9fe15eb819708bce8116c6336036da6c4b2612e8462244523ed7",
+      "digestId": "sha256:3ea10dec031e96a79fca9278ba0fc0a29e8edd69816a4dbeb9bf1d0dc6f70c86",
+      "sizeBytes": 0,
+      "command": "WORKDIR /application"
+    },
+    {
+      "index": 4,
+      "id": "962b5c8a42ebaa331d841d80d3a66cd6f8bdffba05ffd3cc8063f2f6fe752142",
+      "digestId": "sha256:a415ce87847306989e031e467d0ae998fb64173652c8605515c2b488f5beef89",
+      "sizeBytes": 17481086,
+      "command": "COPY application/dependencies/ ./ # buildkit"
+    },
+    {
+      "index": 5,
+      "id": "31cd9ee0ac34cd4f83bb376917c06a6cb8f18ebc0cfa419718a907724b268e6e",
+      "digestId": "sha256:df60871c1daa617227286b1aca0880ae8371e5faeea16c13c54c2c4794441a8a",
+      "sizeBytes": 252148,
+      "command": "COPY application/spring-boot-loader/ ./ # buildkit"
+    },
+    {
+      "index": 6,
+      "id": "d90f7ac688829ba6a909c2aac7fc7f2a2c4a891daf6b63df422a661d1651c6e8",
+      "digestId": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "sizeBytes": 0,
+      "command": "COPY application/snapshot-dependencies/ ./ # buildkit"
+    },
+    {
+      "index": 7,
+      "id": "51271e929b69b0708e69dfbe69460e4914389fe6eb12e863de4f461026726560",
+      "digestId": "sha256:e4ed362ae45c1b4405b72be4a60f5c2b786f298fbac71dd175a2bcf7d2b6acc2",
+      "sizeBytes": 6168,
+      "command": "COPY application/application/ ./ # buildkit"
+    }
+  ],
+  "image": {
+    "sizeBytes": 261601473,
+    "inefficientBytes": 1984190,
+    "efficiencyScore": 0.9952452370174536,
+    "fileReference": [
+      {
+        "count": 2,
+        "sizeBytes": 1318017,
+        "file": "/var/cache/debconf/templates.dat"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 344429,
+        "file": "/var/log/dpkg.log"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 215640,
+        "file": "/var/lib/dpkg/status"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 37131,
+        "file": "/var/log/apt/history.log"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 28370,
+        "file": "/var/cache/debconf/config.dat"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 14922,
+        "file": "/etc/ld.so.cache"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 12354,
+        "file": "/var/cache/ldconfig/aux-cache"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 11212,
+        "file": "/var/log/apt/eipp.log.xz"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 2115,
+        "file": "/var/lib/apt/extended_states"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/triggers/Unincorp"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/apt/lists"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/lock"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/updates"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/cache/debconf/passwords.dat"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/lock-frontend"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/cache/apt/archives/partial"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/cache/apt/archives/lock"
+      },
+      {
+        "count": 3,
+        "sizeBytes": 0,
+        "file": "/tmp"
+      },
+      {
+        "count": 2,
+        "sizeBytes": 0,
+        "file": "/var/lib/dpkg/triggers/Lock"
+      }
+    ]
+  }
+}
