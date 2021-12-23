@@ -60,6 +60,31 @@ dive -j rest-server-dockerfile.dive rest-server-dockerfile:0.0.1
 ```
 Size of image: 455MB
 
+## Dockerfile - jre
+
+This is the traditional approach where a fat jar is built using `mvn package` that contains all the java artifacts such as application code, spring boot libraries and any dependencies. A Dockerfile needs to be created.
+
+Build docker image:
+```
+docker build -f Dockerfile.jre -t rest-server-dockerfile-jre:0.0.1 .
+```
+
+Run docker image:
+```
+docker run -it -p8080:8080 rest-server-dockerfile-jre:0.0.1
+```
+
+Test the image:
+```
+curl http://localhost:8080/greeting
+```
+
+Inspect the image:
+```
+dive -j rest-server-dockerfile-jre.dive rest-server-dockerfile-jre:0.0.1
+```
+Size of image: 262MB
+
 ## Dockerfile - multistage layered
 
 To list the java layers to include in the Dockerfille.multistage-layered file run this command:
