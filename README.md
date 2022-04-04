@@ -7,11 +7,12 @@ Number of ways to create a spring boot container image.
 | Method | Layers | Size | Dockerfile |
 | ------ | ------ | ---- | ---------- |
 | Buildpack | 15 | 261 MB | NA |
-| Dockerfile - jdk | 4 | 455 MB | rest-server-dockerfile:0.0.1 |
-| Dockerfile - jre | 4 | 262 MB | rest-server-dockerfile-jre:0.0.1 |
+| Jib | 8 | 227 MB | NA |
+| Dockerfile - jdk - fat jar | 4 | 455 MB | rest-server-dockerfile:0.0.1 |
+| Dockerfile - jre - fat jar | 4 | 262 MB | rest-server-dockerfile-jre:0.0.1 |
 | Dockerfile - jre - multistage | 8 | 262 MB | rest-server-dockerfile-multistage-layered |
 | Dockerfile - jdk - ubi | 4 | 455 MB | rest-server-dockerfile-ubi-openjdk11 |
- 
+
 
 
 ## Buildpaks
@@ -46,6 +47,43 @@ Sources:
 * https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1
 * https://spring.io/guides/topicals/spring-boot-docker/
 * https://www.baeldung.com/docker-layers-spring-boot
+
+## Jib
+
+Jib builds optimized Docker and OCI images for Java applications with a Docker Daemon.
+
+
+To use JIB, you need to add a maven plugin:
+```
+<plugin>
+    <groupId>com.google.cloud.tools</groupId>
+    <artifactId>jib-maven-plugin</artifactId>
+    <version>2.6.0</version>
+</plugin>
+```
+
+
+Build docker image:
+```
+./mvnw compile jib:dockerBuild -Dimage=rest-server-jib:0.0.1
+```
+
+Run the image:
+```
+docker run -it -p8080:8080 rest-server-jib:0.0.1
+```
+
+Test the image:
+```
+curl http://localhost:8080/greeting
+```
+
+Size of image: 227MB
+
+Source:
+* https://github.com/GoogleContainerTools/jib
+* https://cloud.google.com/blog/products/application-development/introducing-jib-build-java-docker-images-better
+
 
 ## Dockerfile - one stage
 
