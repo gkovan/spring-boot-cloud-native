@@ -2,6 +2,18 @@
 
 Number of ways to create a spring boot container image.
 
+## Summary
+
+| Method | Layers | Size | Dockerfile |
+| ------ | ------ | ---- | ---------- |
+| Buildpack | 15 | 261 MB | NA |
+| Dockerfile - jdk | 4 | 455 MB | rest-server-dockerfile:0.0.1 |
+| Dockerfile - jre | 4 | 262 MB | rest-server-dockerfile-jre:0.0.1 |
+| Dockerfile - jre - multistage | 8 | 262 MB | rest-server-dockerfile-multistage-layered |
+| Dockerfile - jdk - ubi | 4 | 455 MB | rest-server-dockerfile-ubi-openjdk11 |
+ 
+
+
 ## Buildpaks
 
 Spring Boot 2.3.0.M1 and above includes buildpack support directly for both Maven and Gradle.
